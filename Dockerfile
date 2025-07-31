@@ -1,3 +1,3 @@
-FROM java:21
+FROM java:11
 COPY ./target/my-project-1.0-SNAPSHOT.jar  my-project-1.0-SNAPSHOT.jar  
 ENTRYPOINT ["java", "-jar", "my-project-1.0-SNAPSHOT.jar "]
